@@ -1,4 +1,4 @@
-const songsFolder = "http://127.0.0.1:5500/SONGS/";
+const songsFolder = "http:/127.0.0.1:5500/SONGS/";
 let currentsong = new Audio();
 let currentindex = 0;
 let currFolder;
@@ -221,3 +221,4 @@ async function main() {
     })
 }
 main();
+
